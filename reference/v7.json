@@ -559,6 +559,17 @@
         "text-field"
       ]
     },
+    "text-repeat-distance": {
+      "type": "number",
+      "default": 250,
+      "minimum": 0,
+      "units": "pixels",
+      "function": "interpolated",
+      "doc": "Minimum distance between text with the same `text-field` value",
+      "requires": [
+        "text-field"
+      ]
+    },
     "text-keep-upright": {
       "type": "boolean",
       "function": "piecewise-constant",
