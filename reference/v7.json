@@ -561,7 +561,7 @@
     },
     "text-repeat-distance": {
       "type": "number",
-      "default": 250,
+      "default": 200,
       "minimum": 0,
       "units": "pixels",
       "function": "interpolated",
