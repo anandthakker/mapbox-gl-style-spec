@@ -393,6 +393,17 @@
         "icon-image"
       ]
     },
+    "icon-repeat-distance": {
+      "type": "number",
+      "default": 0,
+      "minimum": 0,
+      "units": "pixels",
+      "function": "interpolated",
+      "doc": "Minimum distance between icons with the same `icon-image` value",
+      "requires": [
+        "icon-image"
+      ]
+    },
     "icon-keep-upright": {
       "type": "boolean",
       "function": "piecewise-constant",
